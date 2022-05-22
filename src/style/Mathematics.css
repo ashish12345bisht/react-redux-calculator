@@ -1,0 +1,114 @@
+/* .operators{
+    padding-left:20px;
+    height:60px;
+    width:50px;
+    overflow: scroll;
+    font-size:1.5em;
+}
+
+.operators p{
+    width: 50px;
+    padding:0;
+    margin:0;
+} */
+.heading{
+    color:#fff;
+    font-size:30px;
+}
+.math__calculator{
+    width: 600px;
+    background-color:#28374D;
+    margin:auto;
+    padding:2em;
+    border-radius:20px;
+    text-align: center;
+}
+.math__calculator input{
+    font-size:3em;
+    text-align: center;
+    width:80%;
+    border-radius:2em;
+    border:none;
+    padding:10px;
+    margin:5px;
+    color:#fff;
+    background-color:#333;
+    outline:none;
+    text-shadow:2px 2px 2px #EA444D;
+}
+.operators{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    color:#fff;
+    font-size:2.5em;
+}
+.operators button{
+    height: 60px;
+    font-size:1.5em;
+    border-radius:10px;
+    background-color:#EA444D;
+    border:none;
+    color:#fff;
+    width:100px;
+}
+.operators button:hover{
+    transform:scale(1.05);
+}
+.calculate{
+    width:180px;
+    font-size:2em;
+    left:45%;
+    background-color:#EA444D;
+    margin-right: 0.5em;
+    border:none;
+    color:#fff;
+    border-radius:20px;
+    padding:0.5em 1em;
+    text-shadow:4px 4px 5px darkgreen;
+}
+.calculate:hover{
+    text-shadow:2px 2px 5px darkgreen;
+    transform:scale(1.1);
+    transition: all 0.2s ease-in-out;
+
+}
+.answer{
+    color:yellow;
+    font-size:3em;
+    font-weight:500;
+    text-shadow:5px 5px 5px #333;
+}
+.scientific{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.scientific>button{
+    font-size:1.5em;
+    border: none;
+    width:150px;
+    margin:10px;
+    background:rgb(0,0,0,0.5);
+    color:white;
+    padding:10px;
+    border-radius:20px;
+}
+.scientific>button:hover{
+    transform:scale(1.1);
+    cursor:pointer;
+}
+.keypad{
+    position: absolute;
+    width: 150px;
+    top: 50px;
+    left: 70vw;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.keypad>button{
+    width:50px;
+    height:50px;
+}
